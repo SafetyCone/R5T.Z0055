@@ -7,6 +7,9 @@ using R5T.T0212.Extensions;
 
 namespace R5T.Z0055
 {
+    /// <summary>
+    /// Provides the entire contents of a .NET assembly XML documentation file.
+    /// </summary>
     [ValuesMarker]
     public partial interface IDocumentationFileXmlTexts : IValuesMarker
     {
